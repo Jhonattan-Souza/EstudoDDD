@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoDDD.Domain", "EstudoDDD.Domain\EstudoDDD.Domain.csproj", "{0B2F64E4-695B-4875-8179-E40B7E0FB9F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2B9A4EAD-D9DF-4C2C-B9B4-034D13C05AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstudoDDD.Domain.Tests", "EstudoDDD.Domain.Tests\EstudoDDD.Domain.Tests.csproj", "{471CEE80-2969-4D78-82AE-407B2C9B46FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B2F64E4-695B-4875-8179-E40B7E0FB9F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B2F64E4-695B-4875-8179-E40B7E0FB9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B2F64E4-695B-4875-8179-E40B7E0FB9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B2F64E4-695B-4875-8179-E40B7E0FB9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471CEE80-2969-4D78-82AE-407B2C9B46FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471CEE80-2969-4D78-82AE-407B2C9B46FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471CEE80-2969-4D78-82AE-407B2C9B46FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471CEE80-2969-4D78-82AE-407B2C9B46FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{471CEE80-2969-4D78-82AE-407B2C9B46FC} = {2B9A4EAD-D9DF-4C2C-B9B4-034D13C05AC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {854727BE-4FF2-4E7E-A6A9-C126FC0BDD2A}
+	EndGlobalSection
+EndGlobal
